@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 6px 8px 5px rgba(54, 52, 52, 0.926);
+    padding: 10px;
+}
+
+#mouse {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.feature-container {
+    display: flex;
+}
+
+.features {
+    font-size: 13px;
+    margin: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 2px solid rgba(71, 71, 71, 0.156);
+    color: rgba(25, 24, 24, 0.626);
+    border-radius: 3000px;
+    font-family: "Poppins", sans-serif;
+}
+
+#heading {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Poppins', monospace;
+    margin-left: 4px;
+}
+
+#info {
+    font-family: 'Poppins', monospace;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.btn-div {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: #0170f8;
+    background-color: #c1d3ec;
+    padding: 7px;
+    font-family: 'Poppins', monospace;
+    width: 120px;
+    height: 40px;
+    border-radius: 8229px;
+    border: 1px none;
+    transition-duration: 0.1s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
